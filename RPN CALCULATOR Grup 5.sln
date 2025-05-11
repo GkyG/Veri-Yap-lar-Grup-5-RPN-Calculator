@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPN CALCULATOR Grup 5", "RPN CALCULATOR Grup 5.csproj", "{3A2C11E6-0000-493C-BD44-A733CDA0FB24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2C11E6-0000-493C-BD44-A733CDA0FB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2C11E6-0000-493C-BD44-A733CDA0FB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2C11E6-0000-493C-BD44-A733CDA0FB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2C11E6-0000-493C-BD44-A733CDA0FB24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {218B4C63-460B-4B66-AFA0-DD5E68966E78}
+	EndGlobalSection
+EndGlobal

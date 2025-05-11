@@ -1,0 +1,16 @@
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\bin\Debug\net9.0-windows\RPN CALCULATOR Grup 5.exe
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\bin\Debug\net9.0-windows\RPN CALCULATOR Grup 5.deps.json
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\bin\Debug\net9.0-windows\RPN CALCULATOR Grup 5.runtimeconfig.json
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\bin\Debug\net9.0-windows\RPN CALCULATOR Grup 5.dll
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\bin\Debug\net9.0-windows\RPN CALCULATOR Grup 5.pdb
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN_CALCULATOR_Grup_5.Form1.resources
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.csproj.GenerateResource.cache
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.AssemblyInfoInputs.cache
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.AssemblyInfo.cs
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.csproj.CoreCompileInputs.cache
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.dll
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\refint\RPN CALCULATOR Grup 5.dll
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.pdb
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\RPN CALCULATOR Grup 5.genruntimeconfig.cache
+C:\Users\Gökay\Desktop\Gökay Ders Dosyaları\Veri Yapıları\RPN CALCULATOR Grup 5\obj\Debug\net9.0-windows\ref\RPN CALCULATOR Grup 5.dll
