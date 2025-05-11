@@ -26,10 +26,10 @@ Bu proje, **Veri Yapıları** dersine ait bir uygulama projesidir. Temel amacı,
 
 | Adı Soyadı | GitHub Kullanıcısı | Sorumluluğu |
 |------------|--------------------|--------------|
-| Ahmet X    | [@ahmetx](https://github.com/ahmetx) | RPN çözümleme & GUI |
-| Ayşe Y     | [@aysey](https://github.com/aysey)  | Undo/Redo algoritması |
-| Mehmet Z   | [@mehmetz](https://github.com/mehmetz) | Expression Tree |
-| Elif K     | [@elifk](https://github.com/elifk)   | Queue yapısı & dökümantasyon |
+| Gökay Goncagül    | [@GkyG](https://github.com/GkyG) | Undo/Redo Algoritması ve GUI Tasarımı |
+| İbrahim Alptekin     | [@ibrahimalptekin](https://github.com/ibrahimalptekin)  | Stack İşlemlerinin yapılması |
+| Onur Ökten   | [@10urok10](https://github.com/10urok10) | Expression Tree'nin oluşturulması |
+| Muhammed Mergarbel    | [@muhammedmegarbel](https://github.com/muhammedmegarbel)   | Queue yapısı & dökümantasyon |
 
 > Tüm çalışmalar `dev` isimli ortak branch üzerinden yapılmıştır. Proje gelişimi boyunca commit ve merge işlemleri GitHub üzerinden takip edilmiştir.
 
