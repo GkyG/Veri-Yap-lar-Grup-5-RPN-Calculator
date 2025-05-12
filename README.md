@@ -26,10 +26,7 @@ Bu proje, **Veri Yapıları** dersine ait bir uygulama projesidir. Temel amacı,
 
 | Adı Soyadı | GitHub Kullanıcısı | Sorumluluğu |
 |------------|--------------------|--------------|
-| Gökay Goncagül    | [@GkyG](https://github.com/GkyG) | Undo/Redo Algoritması ve GUI Tasarımı |
-| İbrahim Alptekin     | [@ibrahimalptekin](https://github.com/ibrahimalptekin)  | Stack İşlemlerinin yapılması |
-| Onur Ökten   | [@10urok10](https://github.com/10urok10) | Expression Tree'nin oluşturulması |
-| Muhammed Mergarbel    | [@muhammedmegarbel](https://github.com/muhammedmegarbel)   | Queue yapısı & dökümantasyon |
+| Gökay Goncagül    | [@GkyG](https://github.com/GkyG) | Undo/Redo Algoritması ve GUI Tasarımı,Stack İşlemlerinin yapılması, Expression Tree'nin oluşturulması, Queue yapısı & dökümantasyon |
 
 > Tüm çalışmalar `dev` isimli ortak branch üzerinden yapılmıştır. Proje gelişimi boyunca commit ve merge işlemleri GitHub üzerinden takip edilmiştir.
 
@@ -50,7 +47,7 @@ Bu proje, **Veri Yapıları** dersine ait bir uygulama projesidir. Temel amacı,
 
 | RPN Hesaplama | Expression Tree |
 |---------------|-----------------|
-| ![calc](assets/rpn-ui.png) | ![tree](assets/tree-ui.png) |
+| ![RPN Calculator GUI](images/GUIYapısı_Temel_islemler.PNG) | ![Expression Tree](images/ExampleExpressionTree.PNG) |
 
 > Görseller demo çalıştırmasından alınmıştır.
 
@@ -72,21 +69,65 @@ Bu proje, **Veri Yapıları** dersine ait bir uygulama projesidir. Temel amacı,
 ### 🔁 Stack vs Array
 - Array sabit boyuttadır, fakat Stack dinamik büyür.
 - Stack üzerinde `Push`, `Pop` işlemleri amortize olarak `O(1)` karmaşıklıktadır.
+- Toplam işlem: her token sadece bir kez işlenir → O(N)
+
+Karmaşıklık:
+
+T(N)=N⋅O(1)=O(N)
 
 ### 🔄 Linked List ile Undo/Redo
 - Geri alma: `O(1)` – önceki node’a referans
 - İleri alma: `O(1)` – sonraki node’a referans
 - Eklemeler/silmeler için ekstra kaydırma gerektirmez
+- şlem Adımları:
+
+AddLast, RemoveLast işlemleri → O(1)
+
+RebuildStack() → geçmişteki tüm işlemleri yeniden uygular → O(N)
+
+Karmaşıklık:
+
+Undo/Redo:O(1),RebuildStack:O(N)
+
 
 ### 🌲 Expression Tree
 - Operatörler düğüm (node), operandlar yaprak (leaf)
 - Derinlik sıraları: infix, postfix, prefix gösterim
 - Tree traversal: `O(n)` karmaşıklık
+-🧮 Matematiksel Doğrulama:
+Bir ağacın zaman karmaşıklığını tanımlamak için aşağıdaki bağıntıyı kullanalım:
+
+𝑇(𝑁)=𝑇(𝐿)+𝑇(𝑅)+C
+
+T(L): Sol alt ağacın dolaşım zamanı
+T(R): Sağ alt ağacın dolaşım zamanı
+C: Mevcut düğümü ziyaret etmek için sabit süre
+
+Eğer ağacımız sağa eğimli (right-skewed) bir ağaçsa, sol taraf boş kalır, yani 
+L=0. Bu durumda:
+T(N)=T(0)+T(N−1)+C
+Açalım:
+
+T(N)=T(0)+T(N−1)+C
+T(N)=T(0)+T(N−2)+2C
+T(N)=T(0)+T(N−3)+3C
+⋮
+T(N)=NT(0)+NC=O(N)
+
+✅ Sonuç:
+İfade ağacı üzerinde yapılan tüm dolaşım algoritmaları (preorder, inorder, postorder) her düğümü bir kez ziyaret ettiği için zaman karmaşıklığı:
+
+O(N)
+​
+
 
 ### ⏳ Queue (FIFO)
 - `Enqueue`: sıraya ekleme `O(1)`
 - `Dequeue`: sıradan çıkarma `O(1)`
 - RPN işlemleri sırayla yürütülerek hata yönetimi sağlanır
+- Karmaşıklık (M işlem için):
+
+T(M)=M⋅O(N)
 
 ---
 
